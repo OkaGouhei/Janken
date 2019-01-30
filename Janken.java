@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Janken{
      public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("1:グー　2:チョキ　3:パー");
+        System.out.println("　1:グー　2:チョキ　3:パー");
         System.out.println("Aの番です");
         int i = sc.nextInt();
         System.out.println("Bの番です");
