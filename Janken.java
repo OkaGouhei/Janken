@@ -4,14 +4,14 @@ public class Janken{
         Scanner sc = new Scanner(System.in);
         System.out.println("　 1:グー　2:チョキ　3:パー");
         System.out.println("Aの番です");
-        int i = sc.nextInt();
+        int a = sc.nextInt();
         System.out.println("Bの番です");
-        int k = sc.nextInt();
-        if (i == k){
+        int b = sc.nextInt();
+        if (a == b){
           System.out.println("あいこです");
-        } else if((i == 1 && k == 2) || (i == 2 && k ==3) || (i == 3 && k == 1)) {
+        } else if((a == 1 && b == 2) || (a == 2 && b ==3) || (a == 3 && b == 1)) {
           System.out.println("Aの勝ちです");
-        }else if((k == 1 && i == 2) || (k == 2 && i ==3) || (k == 3 && i == 1)) {
+        }else if((b == 1 && a == 2) || (b == 2 && a==3) || (b == 3 && a == 1)) {
           System.out.println("Bの勝ちです");
         }
      }
